@@ -1,0 +1,75 @@
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+// COLORS
+$bluegradientbackground: linear-gradient(227.1deg, #1B2F9C 0.7%, rgba(0, 0, 0, 0.58) 94.43%);
+$black: black;
+
+//the yellow
+$theyellow: #FFFADE;
+
+//the teal
+$theteal: #00CFA9;
+
+/*WHOLE*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+// BODY
+body {
+    display: flex;
+    justify-content: flex-end;
+    background: $bluegradientbackground;
+    background-color: black;
+    height: 1000px;
+    font-family: 'Inter', sans-serif;
+    .header {
+        height: 300px;
+        h1 {
+            color: $theteal;
+        }
+        p {
+            color: white;
+        }
+        img {
+            height: 400px;
+            width: 400px;
+            border-radius: 80%;
+            object-fit: cover;
+        }
+        .titleandheadshot {
+            display: flex;
+        }
+        .navbar, li {
+            color: white;
+            font-weight: 400;
+            font-size: 25px;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0px 20px;
+            cursor: pointer;
+        }
+        .navbar, li a {
+            transition: all 0.3s ease 0s;
+            color: white;
+        }
+        .navbar, li a:hover {
+            color: $theteal;
+        }
+        .porty {
+            padding: 9px 25px;
+            background-color: white;
+            font-weight: 700;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .porty, a {
+            text-decoration: none;
+            color: darkblue;
+        }
+    }
+}
