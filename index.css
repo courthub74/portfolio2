@@ -96,9 +96,36 @@ body .portfolio p {
 body .blog {
   height: 600px;
   background-color: #FFFADE;
+  display: flex;
 }
 body .blog1 img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+}
+body .experience {
+  height: 800px;
+}
+body .experience h1 {
+  color: #00CFA9;
+}
+body .experience img {
+  height: 200px;
+  width: 200px;
+}
+body .contact {
+  height: 600px;
+  background-color: #00CFA9;
+  display: flex;
+  flex-direction: column;
+}
+body .contact h1 {
+  color: #FFFADE;
+}
+body .contact input {
+  width: 500px;
+  background-color: #FFFADE;
+  border: none;
+  height: 30px;
+  border-radius: 2%;
 }/*# sourceMappingURL=index.css.map */

@@ -119,10 +119,41 @@ body {
     .blog {
         height: 600px;
         background-color: $theyellow;
+        display: flex;
     }
     .blog1 img {
         width: 300px;
         height: 300px;
         border-radius: 50%;
+    }
+
+    // EXPERIENCE
+    .experience {
+        height: 800px;
+        h1 {
+            color: $theteal;
+        }
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+    // CONTACT
+    .contact {
+        height: 600px;
+        background-color: $theteal;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            color: $theyellow;
+        }
+        input {
+            width: 500px;
+            background-color: $theyellow;
+            border: none;
+            height: 30px;
+            border-radius: 2%;
+        }
     }
 }
