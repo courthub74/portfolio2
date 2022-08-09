@@ -92,4 +92,13 @@ body .portfolio h1 {
 body .portfolio p {
   color: #00CFA9;
   border: #00CFA9 1px solid;
+}
+body .blog {
+  height: 600px;
+  background-color: #FFFADE;
+}
+body .blog1 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }/*# sourceMappingURL=index.css.map */

@@ -114,4 +114,15 @@ body {
             border: $theteal 1px solid;
         }
     }
+
+    // BLOG
+    .blog {
+        height: 600px;
+        background-color: $theyellow;
+    }
+    .blog1 img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
 }
