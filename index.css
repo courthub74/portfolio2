@@ -10,7 +10,7 @@
 body {
   background: linear-gradient(227.1deg, #1B2F9C 0.7%, rgba(0, 0, 0, 0.58) 94.43%);
   background-color: black;
-  height: 1000px;
+  height: 5000px;
   font-family: "Inter", sans-serif;
 }
 body .navbar, body li {
@@ -19,7 +19,7 @@ body .navbar, body li {
   font-size: 25px;
   text-decoration: none;
   display: inline-block;
-  padding: 0px 20px;
+  padding: 20px 20px;
   cursor: pointer;
 }
 body .navbar, body li a {
@@ -41,15 +41,19 @@ body .porty, body a {
   color: darkblue;
 }
 body .header {
-  height: 300px;
+  height: 500px;
+  width: 1000px;
   display: flex;
   justify-content: center;
+  padding: 50px 50px 0px 20px;
 }
 body .header h1 {
   color: #00CFA9;
+  width: 450px;
 }
 body .header p {
   color: white;
+  font-weight: 400;
 }
 body .header img {
   height: 400px;
@@ -58,6 +62,34 @@ body .header img {
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .header .titleandheadshot {
+body .skills {
+  height: 400px;
+  background-color: #FFFADE;
   display: flex;
+  justify-content: space-around;
+  padding: 150px 0px 10px 0px;
+}
+body .about {
+  height: 400px;
+  background-color: #00CFA9;
+}
+body .about h1 {
+  padding: 20px;
+  color: #FFFADE;
+}
+body .about p {
+  color: white;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+}
+body .portfolio {
+  height: 1000px;
+}
+body .portfolio h1 {
+  color: #00CFA9;
+}
+body .portfolio p {
+  color: #00CFA9;
+  border: #00CFA9 1px solid;
 }/*# sourceMappingURL=index.css.map */
